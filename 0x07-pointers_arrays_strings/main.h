@@ -11,8 +11,5 @@ unsigned int _strspn(char *s, char *accept);
 void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 void set_string(char **s, char *to);
-<<<<<<< HEAD
 
-=======
->>>>>>> c975190f3262a2dbc37dcce6c3edd05b79385714
 #endif
