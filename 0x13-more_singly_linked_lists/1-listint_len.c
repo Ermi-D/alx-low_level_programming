@@ -3,18 +3,18 @@
 /**
  * listint_len - returns the number of elements in
  * a linked list.
- * @h: head of a list.
+ * @h: head node.
  *
- * Return: numbers of nodes.
+ * Return: length of nodes.
  */
 size_t listint_len(const listint_t *h)
 {
-	size_t nnodes = 0;
+	size_t nodes = 0;
 
 	while (h != NULL)
 	{
 		h = h->next;
-		nnodes++;
+		nodes++;
 	}
-	return (nnodes);
+	return (nodes);
 }
